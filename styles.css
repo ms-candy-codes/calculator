@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+body{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    margin: auto 0;
+    text-align: center;
+    padding: 5%;
+}
+
+#containerAll{
+    background-color: #E6BEAE;
+    color: #98826e;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    height: 50vh;
+    padding: 5% 2% 5% 2%;
+    width: 25vw;
+}
+
+.screen{
+    background-color: #EEE4E1;
+    border: solid 1px #B2967D;
+    font-family: "Orbitron", serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 500px;
+    margin: 0 0 10% 0;
+}
+
+#divide, #minus, #plus, #equal, #multiply{
+    background-color: #c8aa8f;
+    border: solid 1px #B2967D;
+    color: #6f6052;
+    font-family: "Orbitron", serif;
+}
+
+#dot, #modulo{
+    width: 24%
+}
+
+#divide, #equal{
+    width: 24%;
+}
+
+.acButton, .zeroButton{
+    background-color: #e7d8c9;
+    border: solid 1px #B2967D;
+    color: #6f5f51;
+    font-family: "Orbitron", serif;
+    width: 49%;
+    height: 50px;
+}
+
+.buttonAll{
+    background-color: #EEE4E1;
+    border: solid 1px #EEE4E1;
+    color: #6f5f51;
+    font-family: "Orbitron", serif;
+    width: 20%;
+    height: 50px;
+}
+
+.rowTwo > .buttonAll, .rowThree > .buttonAll, .rowFour > .buttonAll{
+    width: 24%;
+}
