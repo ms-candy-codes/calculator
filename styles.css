@@ -27,11 +27,11 @@ body{
     font-family: "Orbitron", serif;
     font-weight: 400;
     font-style: normal;
-    height: 500px;
+    height: 200px;
     margin: 0 0 10% 0;
 }
 
-#divide, #minus, #plus, #equal, #multiply{
+#divide, #minus, #plus, #multiply{
     background-color: #c8aa8f;
     border: solid 1px #B2967D;
     color: #6f6052;
@@ -45,7 +45,14 @@ body{
 #divide, #equal{
     width: 24%;
 }
-
+#equal{
+    background-color: #c8aa8f;
+    border: solid 1px #B2967D;
+    color: #6f6052;
+    font-family: "Orbitron", serif;
+    width: 49%;
+    height: 50px;
+}
 .acButton, .zeroButton{
     background-color: #e7d8c9;
     border: solid 1px #B2967D;
